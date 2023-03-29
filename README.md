@@ -3,7 +3,7 @@
 
 For this project i simulated three different microservices that are comunicating between then with the use of a event bus, basicly we got a Villain microservice, a Comic microservice and a Character microservice.
 When we want to import the data from the Villain what we do first is create the Villain and after that, push an event to the event bus that is going to create a task to publish a message to a queue that another of our microservice is hearing and after create the Comic we do the same process for Characters
-to demostrate better how it works im goign to attach a diagram
+to demostrate better how it works im going to attach a diagram
 
 ![alt text](https://i.ibb.co/7WbTN35/image-2023-03-29-092243726.png)
 ## Authors
